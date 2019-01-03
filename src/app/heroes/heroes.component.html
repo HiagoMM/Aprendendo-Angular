@@ -1,0 +1,20 @@
+
+<div>
+  <ul class="heroes">
+    <li *ngFor="let hero of heroes" (click)="onSelect(hero)">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </li>
+  </ul>
+</div>
+
+
+
+<div id="nameChanger">
+<p id="Detalhes">{{selectedHero.name | uppercase}}  </p>
+<div><span>id: </span>{{selectedHero.id}}</div> 
+<div>
+    <label>NAME :
+      <input [(ngModel)]="selectedHero.name" maxlength="18" placeholder="BOTA UM NOME CARAI">
+    </label>
+</div>
+</div>

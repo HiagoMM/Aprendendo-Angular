@@ -1,0 +1,24 @@
+#tittle{
+    box-shadow: rgb(124, 22, 8) 2px 2px 5px;
+    width: fit-content;
+    font-size: -webkit-xxx-large;
+    color: rgb(124, 22, 8);
+    MARGIN: auto;
+    
+}
+
+#tudo{
+    width: 27%;
+    padding: 77px 15px 112px 15px;
+    margin: auto;
+    box-shadow: rgb(124, 22, 8) 2px 2px 5px;
+    margin-top: 1%;
+    background: rgb(255, 255, 255);
+
+}
+#tudo img{
+    max-width: 30%;
+    margin: 0 auto;
+    display: block;
+
+}

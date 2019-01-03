@@ -1,0 +1,22 @@
+
+#Detalhes{
+    box-shadow :rgb(124, 22, 8) 2px 2px 5px;
+    width: fit-content;
+    font-size: xx-large;
+    color: rgb(124, 22, 8);
+    margin-bottom: 1%;
+}
+#nameChanger{
+    width: max-content;
+    margin: auto;
+   
+}
+
+.heroes li:hover{
+    color: rgb(124, 22, 8);
+    font-weight: bolder;
+    cursor:pointer;
+}
+.heroes li{
+    width: fit-content;
+}
